@@ -62,7 +62,7 @@ https://ssh.cloud.google.com/devshell/proxy?authuser=0&port=8080
 
 Debug url in local:
 
-http://0.0.0.0:8080
+http://localhost:8080/
 
 Extra: Download the sourcecode
 -----------------------
