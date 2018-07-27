@@ -47,20 +47,28 @@ Install the appenginelancher
 
 https://cloud.google.com/appengine/docs/standard/python/download#appengine_sdk
 
-Download the sourcecode
+
+Use dev_appserver.py to test app in local
+--------------------
+
+It will runtime update the appserver, if there are any changes
+
+
+	dev_appserver.py app.yaml
+
+Debug url (in google cloud):
+
+https://ssh.cloud.google.com/devshell/proxy?authuser=0&port=8080
+
+Debug url in local:
+
+https://0.0.0.0:8080
+
+Extra: Download the sourcecode
 -----------------------
 if you already deployto  google cloud, you want use that to debug
 
 	appcfg.py -A [YOUR_PROJECT_ID] -V [YOUR_VERSION_ID] download_app [OUTPUT_DIR]
-
-From Git
-
-	git clone https://github.com/myclau/GoogleCloud-appengine.git $WORKDIR
-
-
-Create a new project and link to the checkout source location.
-Then click run.
-Default url for the app is localhost:8080
 
 
 	
