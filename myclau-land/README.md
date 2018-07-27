@@ -40,14 +40,21 @@ Open app in brower
 	gcloud app browse
 
 For local Debug
-=========
-Install the appenginelancher from https://cloud.google.com/appengine/docs/standard/python/download#appengine_sdk
+===============
+
+Install the appenginelancher
+----------------------------
+
+https://cloud.google.com/appengine/docs/standard/python/download#appengine_sdk
 
 Download the sourcecode
+-----------------------
 if you already deployto  google cloud, you want use that to debug
+
 	appcfg.py -A [YOUR_PROJECT_ID] -V [YOUR_VERSION_ID] download_app [OUTPUT_DIR]
 
 From Git
+
 	git clone https://github.com/myclau/GoogleCloud-appengine.git $WORKDIR
 
 
