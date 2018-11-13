@@ -1,6 +1,9 @@
 Current app
 ===========
+default:
 https://myclau-land.appspot.com/
+where to go:
+https://myclau-land.appspot.com/where2go
 
 Checkout code
 ============================
